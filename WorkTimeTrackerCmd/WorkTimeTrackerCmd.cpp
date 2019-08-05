@@ -10,4 +10,6 @@ int main()
     tracker.OnStart();
 
     std::cout << "Hello from WorkTimeTrackerCmd.exe" << std::endl;
+
+    return EXIT_SUCCESS;
 }

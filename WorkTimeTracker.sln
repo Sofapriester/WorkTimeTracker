@@ -7,6 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorkTimeTrackerCmd", "WorkT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorkTimeTracker", "WorkTimeTracker\WorkTimeTracker.vcxproj", "{17674A00-514A-4F45-9D7D-1BBE16C02457}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorkTimeTrackerAgent", "WorkTimeTrackerAgent\WorkTimeTrackerAgent.vcxproj", "{86DE3088-6870-44D9-AC84-D4B774BC1906}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FC6AD78B-3772-4111-9B1E-8DB7AE855E10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorkTimeTracker_Tests", "WorkTimeTracker\Tests\WorkTimeTracker_Tests\WorkTimeTracker_Tests.vcxproj", "{AE4548A9-6079-45DC-A77B-4BC7936B3CB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,9 +37,28 @@ Global
 		{17674A00-514A-4F45-9D7D-1BBE16C02457}.Release|x64.Build.0 = Release|x64
 		{17674A00-514A-4F45-9D7D-1BBE16C02457}.Release|x86.ActiveCfg = Release|Win32
 		{17674A00-514A-4F45-9D7D-1BBE16C02457}.Release|x86.Build.0 = Release|Win32
+		{86DE3088-6870-44D9-AC84-D4B774BC1906}.Debug|x64.ActiveCfg = Debug|x64
+		{86DE3088-6870-44D9-AC84-D4B774BC1906}.Debug|x64.Build.0 = Debug|x64
+		{86DE3088-6870-44D9-AC84-D4B774BC1906}.Debug|x86.ActiveCfg = Debug|Win32
+		{86DE3088-6870-44D9-AC84-D4B774BC1906}.Debug|x86.Build.0 = Debug|Win32
+		{86DE3088-6870-44D9-AC84-D4B774BC1906}.Release|x64.ActiveCfg = Release|x64
+		{86DE3088-6870-44D9-AC84-D4B774BC1906}.Release|x64.Build.0 = Release|x64
+		{86DE3088-6870-44D9-AC84-D4B774BC1906}.Release|x86.ActiveCfg = Release|Win32
+		{86DE3088-6870-44D9-AC84-D4B774BC1906}.Release|x86.Build.0 = Release|Win32
+		{AE4548A9-6079-45DC-A77B-4BC7936B3CB1}.Debug|x64.ActiveCfg = Debug|x64
+		{AE4548A9-6079-45DC-A77B-4BC7936B3CB1}.Debug|x64.Build.0 = Debug|x64
+		{AE4548A9-6079-45DC-A77B-4BC7936B3CB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE4548A9-6079-45DC-A77B-4BC7936B3CB1}.Debug|x86.Build.0 = Debug|Win32
+		{AE4548A9-6079-45DC-A77B-4BC7936B3CB1}.Release|x64.ActiveCfg = Release|x64
+		{AE4548A9-6079-45DC-A77B-4BC7936B3CB1}.Release|x64.Build.0 = Release|x64
+		{AE4548A9-6079-45DC-A77B-4BC7936B3CB1}.Release|x86.ActiveCfg = Release|Win32
+		{AE4548A9-6079-45DC-A77B-4BC7936B3CB1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE4548A9-6079-45DC-A77B-4BC7936B3CB1} = {FC6AD78B-3772-4111-9B1E-8DB7AE855E10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58BEF4EC-EB24-47B4-B4DF-095386A6E606}
